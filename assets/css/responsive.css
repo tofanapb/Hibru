@@ -1,0 +1,62 @@
+/*Large screen*/
+
+@media only screen and (min-width: 1500px) {}
+
+
+
+/* Tablet Layout waid */
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+}
+
+
+
+
+/* tablet */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {  
+
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .about_area_single_item_content img {width: 250px;margin: 0;}
+    .about_wrapper, .survay_wrapper, .testimonial_wrapper {
+        padding: 0 10px;
+    }
+    .testimonial_inner_content {
+        margin: 0;
+    }
+}
+
+
+/* Mobile Layout */
+
+@media only screen and (max-width: 767px) {
+    .hero_content_items h2, .hero_content_items h3 {font-size: 30px;}
+
+    .about_area_item {flex-direction: column;}
+    
+    .about_area_single_item_content h5:after, .about_area_single_item_content h5:before {display: none;}
+    
+    .patner_logo {flex-wrap: wrap;}
+    
+    .patner_logo_single_item {margin-bottom: 10px;flex-basis: 30%;}
+    
+    .servics_area_item {flex-direction: column;}
+    
+    .servics_area_single_item {margin-bottom: 10px;}
+}
+
+
+
+
+
+
+/* small scren*/
+
+@media only screen and (max-width: 575px) {
+   
+}
+@media only screen and (max-width: 375px) {}
